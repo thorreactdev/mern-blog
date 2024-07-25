@@ -33,7 +33,7 @@ export const createPost = async(req,res,next)=>{
                   <p style="font-weight: 500;">Post Category : </p>
                   <span style="display: inline-flex; align-items: center; justify-content: center; padding: 0 8px; font-size: 0.875rem; border-radius: 16px; background-color: rgba(0, 0, 0, 0.08);">${req.body.category}</span>
                 </div>
-                <a href="your-blog-url" style="text-decoration: none;">
+                <a href="https://mern-blog-cyd1.onrender.com/" style="text-decoration: none;">
                   <button style="margin-top: 8px; margin-bottom: 8px; width: 100%; padding: 8px 16px; background-image: linear-gradient(to right, #a855f7, #ec4899); color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">Read Blog</button>
                 </a>
               </div>
