@@ -8,3 +8,120 @@ body{
   box-sizing: border-box;
   font-family: "Roboto" , sans-serif;
 }
+
+.ql-editor{
+  font-size: 1.05rem;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.custom-text{
+  background-image: url("./assets/ultra-detailed-nebula-abstract-wallpaper-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+ .post-content{
+   font-family: "Roboto" !important;
+  }
+/* 
+.post-content p {
+  margin-bottom: 0.5rem;
+  font-size: 16.5px;
+}
+
+.post-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+  font-weight: bold;
+}
+
+.post-content h2 {
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+  font-weight: bold;
+}
+.post-content h3 {
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+  font-weight: bold;
+
+} */
+
+.post-content a {
+  color: rgb(73, 149, 199);
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+.dark .post-content a {
+  color: red;
+} 
+
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.post-content h1{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.post-content h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.post-content h3{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.post-content h4{
+  font-size: 1.3rem;
+}
+.post-content h5{
+  font-size: 1.2rem;
+}
+.post-content p {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+
+.post-content code {
+  background-color: #ececec;
+  color: #374151;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+.dark .post-content code{
+  background-color: #1e293b;
+  color: #fff;
+}
+
+.post-content pre {
+  background-color: #1e293b;
+  color: #e8e7e7;
+  padding: 1em;
+  border: 0.01px solid #ccc;
+  border-radius: 7px;
+  overflow-x: auto;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
