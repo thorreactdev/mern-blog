@@ -1,10 +1,15 @@
 # MERN Blog App
 
-![Blog App Screenshot](path_to_your_image/Screenshot.png)
+![Blog App Screenshot](client/src/assets/homeblog.png)
+
+![Blog App Screenshot](client/src/assets/postblog.png)
+
+![Blog App Screenshot](client/src/assets/dashboard.png)
+
 
 ## <span style="color: blue;">Live Site</span>
 
-[Visit the live blog app](link_to_your_live_site)
+[Visit the live blog app](https://mern-blog-cyd1.onrender.com)
 
 ## Overview
 
@@ -17,6 +22,7 @@ This is a full-featured blog application built using the MERN stack (MongoDB, Ex
 - **Comments:** Users can comment on posts, with filters to prevent abusive content.
 - **Contact Popup:** Easy way for users to contact the blog owner.
 - **Responsive Design:** Works seamlessly on both desktop and mobile devices.
+- **Dark and light themw:** Users can use both dark and light theme
 
 ## Technologies Used
 
