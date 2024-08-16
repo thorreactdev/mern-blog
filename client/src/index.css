@@ -125,3 +125,15 @@ body{
 ::-webkit-scrollbar{
   width: 0px;
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: rgb(229, 23, 229);
+  transform-origin: 0%;
+  z-index: 200;
+  margin-bottom: 5px;
+}

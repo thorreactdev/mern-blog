@@ -4,8 +4,9 @@ import Loader from "./Loader";
 import Chip from "@mui/material/Chip";
 import CallToAction from "./CallToAction";
 import CommentSection from "./CommentSection";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 import PostCard from "./PostCard";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function PostPage() {
   const [postData, setPostData] = useState(null);
@@ -14,6 +15,13 @@ export default function PostPage() {
   const [loading, setLoading] = useState(false);
   const { postSlug } = useParams();
   console.log(postData);
+
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
 
   useEffect(() => {
     const fetchPost = async () => {
@@ -64,6 +72,8 @@ export default function PostPage() {
   }
   return (
     <main className="flex flex-col p-3 min-h-screen max-w-7xl mx-auto">
+       <motion.div className="progress-bar" style={{ scaleX }} />
+
       <h1 className="text-center text-3xl mt-10 p-3 max-w-2xl mx-auto lg:text-4xl font-medium">
         {postData && postData?.title}
       </h1>
